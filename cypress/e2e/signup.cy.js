@@ -1,4 +1,4 @@
-import { faker } from '@faker-js/faker/locale/en'
+import { faker } from '@faker-js/faker'
 
 describe('Sign up', () => {
   const emailAddress = `${faker.datatype.uuid()}@${Cypress.env('MAILOSAUR_SERVER_ID')}.mailosaur.net`
